@@ -1,0 +1,279 @@
+/*=====================================================================================================*/
+
+* {
+	font-family: "Inter";
+	font-style: italic;
+	color: #FFFFFF;
+	font-weight: 300;
+}
+
+[class*="__container"]{
+	max-width: 1304px;
+	margin: 0 auto;
+	background-color: #303131;
+}
+
+/*=====================================================================================================*/
+
+.header {
+	
+}
+
+.header__container {
+	display: flex;
+}
+
+.header__image {
+	margin-top: 72px;
+}
+
+.header__body {
+
+}
+
+.body-header {
+
+}
+
+.body-header__insta {
+	margin-bottom: 135px;
+}
+
+.body-header__about-me {
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.body-header__text {
+	margin-left: 334px;
+	margin-bottom: 37px;
+}
+
+.body-header__text span {
+	font-size: 70px;
+	line-height: 85px;
+}
+
+.body-header__paragraph {
+	margin-left: 236px;
+	position: relative;
+}
+
+.body-header__paragraph::before {
+	content: "";
+	background-color: #FFFFFF;
+	height: 1px;
+	width: 100%;
+	position: absolute;
+	top: 92px;
+	left: 0;
+}
+
+.insta-header {
+
+}
+
+.insta-header__text {
+	font-size: 40px;
+	line-height: 48px;
+	margin-top: 92px;
+	margin-left: 69px;
+	max-width: 313px;
+	position: relative;
+}
+
+.insta-header__text::before {
+	content: "";
+	background-color: #FFFFFF;
+	height: 1px;
+	width: 95%;
+	position: absolute;
+	top: 127px;
+	left: 0;
+}
+
+.insta-header__ellipse {
+	background: #C4B59B;
+	width: 197px;
+	height: 180px;
+	border: 1px solid #000000;
+	border-radius: 1000%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-top: -74px;
+	margin-left: 362px;
+}
+
+.insta-header__link {
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.insta-header__link:hover {
+	text-decoration-line: underline;
+}
+
+/* ====================================================================================== */
+
+.page {
+}
+
+.page__container {
+}
+
+.page__list {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.page__body {
+	position: relative;
+}
+
+.page__body:nth-child(2), .page__body:nth-child(3) {
+	padding-left: 5px;
+}
+
+.body--margin {
+	margin-top: 190px;
+}
+
+.page__image {
+	transition: filter 4s ease;
+	-webkit-filter: grayscale(0%); 
+	filter: grayscale(0%); 
+}
+
+.page__image:hover {
+-webkit-filter: grayscale(99%); 
+filter: grayscale(99%); 
+}
+
+.page__text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 900;
+	font-size: 55px;
+	line-height: 67px;
+}
+
+.text--line-height-and-size {
+	font-size: 48px;
+	line-height: 58px;
+}
+
+.text--color-black {
+	color: #000000;
+}
+
+.page__paragraph {
+	text-align: center;
+	font-size: 70px;
+	line-height: 85px;
+	margin-bottom: 11px;
+}
+
+/* =================================================================================== */
+
+.footer {
+
+}
+
+.footer__container {
+
+}
+
+.footer__content {
+	display: flex;
+}
+
+.footer__block {
+}
+
+.footer__paragraph {
+	background-color: #888787;
+}
+
+.footer__text {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.content-footer {
+	margin-bottom: 73px;
+}
+
+.content-footer__body {
+	position: relative;
+	margin-top: 78px;
+	z-index: 2;
+}
+
+.content-footer__text {
+	font-size: 70px;
+	line-height: 85px;
+	position: absolute;
+	top: 98px;
+	left: 102px;
+}
+
+.content-footer__text::before {
+	content: "";
+	height: 1px;
+	width: 661px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 117px;
+	left: 6px;
+}
+
+.content-footer__image {
+}
+
+.block-footer {
+	position: relative;
+	z-index: 1;
+}
+
+.block-footer__list {
+	padding-top: 39px;
+	padding-bottom: 65px;
+	background: #C6B79E;
+	width: 795px;
+	position: absolute;
+	top: 391px;
+	left: -198px;
+}
+
+.block-footer__list li:nth-child(1), .block-footer__list li:nth-child(2) {
+	padding-bottom: 41px;
+}
+
+.block-footer__list li:nth-child(3) {
+	padding-bottom: 15px;
+}
+
+.block-footer__item {
+	padding-left: 109px;
+	font-size: 55px;
+	line-height: 67px;
+	color: #49331F;
+	position: relative;
+	min-height: 16px;
+}
+
+.block-footer__item::before {
+	content: "";
+	background-color: #FFFFFF;
+	width: 45px;
+	height: 41px;
+	position: absolute;
+	top: 17px;
+	left: 31px;
+}

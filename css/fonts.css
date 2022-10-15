@@ -1,0 +1,76 @@
+/*--------- Підключення шрифтів ---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); /* Підключен із сайта */
+@import url('https://fonts.googleapis.com/css?family=Inter:300,900&display=swap');
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900&display=swap); --------------  Підключен плагіном */
+/*@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}*/
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff") format("woff2"), url("../fonts/Larsseit.woff2") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff") format("woff2"), url("../fonts/Larsseit-Medium.woff2") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff") format("woff2"), url("../fonts/Larsseit-Bold.woff2") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato-Cyrillic";
+	src: url("../fonts/Lato-Regular.woff") format("woff2"), url("../fonts/Lato-Regular.woff2") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato-Cyrillic";
+	src: url("../fonts/Lato-Bold.woff") format("woff2"), url("../fonts/Lato-Bold.woff2") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato-Cyrillic";
+	src: url("../fonts/Lato-Black.woff") format("woff2"), url("../fonts/Lato-Black.woff2") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
